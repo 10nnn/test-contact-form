@@ -1,0 +1,49 @@
+body {
+    color: #8b7969;
+    background: #ffffff;
+    font-family: "Times New Roman", "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+
+.header {
+    border-bottom: solid 1px #e1dcd7;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 18px 32px;
+    max-width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 0.08em;
+}
+
+.header__menu {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 6px;
+    border: none;
+    background: transparent;
+    padding: 4px;
+    cursor: pointer;
+}
+
+
+.contact-form__heading {
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+}
